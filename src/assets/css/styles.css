@@ -1,0 +1,127 @@
+
+.signIn_main {
+  width: 450px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 7px 6px 13px -2px rgba(156, 153, 153, 0.75);
+}
+.signIn_main_Img {
+  width: 150px;
+  margin: auto;
+}
+/* Header CSS */
+.logo {
+  width: 90px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 50px;
+}
+.header-notifications-dropdown {
+  background: #fff;
+  box-shadow: 0 20px 27px rgb(0 0 0 / 5%);
+  border-radius: 12px;
+  min-width: 276px;
+  padding: 16px 8px;
+}
+
+.header-notifications-dropdown ul.ant-dropdown-menu-items {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-notifications-dropdown .ant-list-item {
+  padding: 5px 16px;
+  margin-bottom: 8px;
+}
+.header-notifications-dropdown .ant-avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #fafafa;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 12%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-notifications-dropdown .ant-list-item-meta-title {
+  line-height: normal;
+}
+.header-notifications-dropdownt .ant-list-item-meta-description {
+  color: #8c8c8c;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+}
+.header-notifications-dropdown .ant-list-item-meta-description svg {
+  width: 14px;
+  height: 14px;
+  fill: #8c8c8c;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.header-notifications-dropdown .ant-list-item-meta-description svg path {
+  fill: #8c8c8c;
+}
+.header-notifications-dropdown .ant-list-item-meta-description span {
+  vertical-align: middle;
+}
+
+.header-notifications-dropdown .ant-avatar .ant-avatar-string {
+  top: 6px;
+}
+
+.header-notifications-dropdown .ant-avatar .ant-avatar-string svg {
+  width: 22px;
+  height: 22px;
+}
+
+.ant-page-header-heading {
+  margin-top: 0;
+}
+.ant-page-header-heading .ant-page-header-heading-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 4px;
+}
+
+.header-control {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Pages CSS */
+.criclebox {
+  box-shadow: 0px 20px 27px #0000000d;
+  border-radius: 12px;
+}
+.criclebox .project-ant {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.criclebox table th {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.ant-card.tablespace .ant-card-body {
+  padding: 0px;
+}
+.tablespace .ant-card-head-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.tablespace {
+  overflow: hidden;
+}
+
+.searching-bar {
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
